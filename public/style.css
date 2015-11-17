@@ -1,0 +1,107 @@
+
+
+section.content {
+
+	width: 50em;
+	height: 35em;
+	margin: 0 auto;
+}
+
+.message {
+	text-align: left;
+	min-width: 380px;
+	max-width: 380px;
+	background-color: lightgrey;
+	border-radius: 5px 5px 5px;
+	margin: 2px 1px;
+}
+
+.message:hover {
+	font-size: 20px;
+}
+
+
+
+div {
+	display: inline-block;
+	text-align: center;
+}
+
+#messages {
+
+	position: relative;
+	top: 0em;
+	left: 9em;
+	max-width: 400px;
+	max-height: 400px;
+	min-height: 400px;
+	min-width: 400px;
+	overflow: auto;
+	margin: 2px;
+	border-radius: 15px 15px 15px 15px;
+	border: 2px grey dotted
+}
+
+.numUsers {
+	
+	margin: 2px;
+	min-width: 100px;
+	max-width: 100px;
+	margin:1em auto;
+	display: block;
+}
+/* users div */
+.users {
+	overflow: auto;
+	position: relative;
+	top: -2em;
+	left: 5em;
+	margin: 2px;
+	max-width: 220px;
+	max-height: 300px;
+	min-height: 300px;
+	min-width: 220px;
+	border: 5px grey dashed;
+	
+
+}
+
+.users:hover {
+	border: 5px grey solid;
+}
+
+.user {
+	display: none;
+	border: 5px grey solid;
+	min-width: 180px;
+	min-height: 10px;
+	margin-top: .5em;
+}
+.user:hover {
+	border: 5px grey dashed;
+	
+}
+
+
+
+
+.inputs-holder {
+	position: relative;
+	top: 0em;
+	left: 24em;
+}
+h1 {
+	border: 1px lightgrey solid;
+	text-align: center;
+}
+
+body {
+	font-family: New Times Roman;
+	margin: 0;
+	overflow: hidden;
+}
+
+input {
+	border-radius: 20px;
+
+}
